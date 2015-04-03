@@ -36,6 +36,8 @@
 			CCSetupTabletScale2X: @(YES),
 		}];
     
+    [CCDirector sharedDirector].contentScaleFactor *= [UIScreen mainScreen].bounds.size.height/320.0;
+		
     return YES;
 }
 

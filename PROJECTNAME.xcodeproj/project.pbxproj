@@ -93,6 +93,10 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
+		D302EF851ACF0CD100FA5CEA /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = D302EF821ACF0CD100FA5CEA /* image.png */; };
+		D302EF861ACF0CD100FA5CEA /* image-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D302EF831ACF0CD100FA5CEA /* image-hd.png */; };
+		D302EF871ACF0CD100FA5CEA /* image-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = D302EF841ACF0CD100FA5CEA /* image-ipadhd.png */; };
+		D302EF8A1ACF0E5A00FA5CEA /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D302EF891ACF0E5A00FA5CEA /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +207,10 @@
 		BC5399D51A44DCC90063F482 /* GLActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLActivityKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/GLActivityKit.framework"; sourceTree = "<group>"; };
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
+		D302EF821ACF0CD100FA5CEA /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		D302EF831ACF0CD100FA5CEA /* image-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-hd.png"; sourceTree = "<group>"; };
+		D302EF841ACF0CD100FA5CEA /* image-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-ipadhd.png"; sourceTree = "<group>"; };
+		D302EF891ACF0E5A00FA5CEA /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -452,6 +460,7 @@
 				B737896C180762440076A88C /* Default-Landscape~ipad.png */,
 				B737896D180762440076A88C /* Default.png */,
 				B737896E180762440076A88C /* Default@2x.png */,
+				D302EF891ACF0E5A00FA5CEA /* Launch Screen.xib */,
 			);
 			name = Icons;
 			sourceTree = "<group>";
@@ -509,6 +518,9 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D302EF821ACF0CD100FA5CEA /* image.png */,
+				D302EF831ACF0CD100FA5CEA /* image-hd.png */,
+				D302EF841ACF0CD100FA5CEA /* image-ipadhd.png */,
 				7A40366119DDF8C2007B6E8F /* Platforms */,
 				5B12100D197483EE004C1E1D /* res */,
 				B73789911807667A0076A88C /* Icons */,
@@ -718,9 +730,13 @@
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
 				B71F5917188484E7003F4D28 /* iPhone.png in Resources */,
 				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
+				D302EF8A1ACF0E5A00FA5CEA /* Launch Screen.xib in Resources */,
+				D302EF861ACF0CD100FA5CEA /* image-hd.png in Resources */,
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
+				D302EF871ACF0CD100FA5CEA /* image-ipadhd.png in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
+				D302EF851ACF0CD100FA5CEA /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
